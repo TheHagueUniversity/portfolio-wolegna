@@ -1,0 +1,78 @@
+html {background-image: linear-gradient(to top left, brown, gray); 
+}
+/*.topside{
+    background-image: linear-gradient(to bottom right, #42275a, #734b6d);
+}*/
+.title {
+    text-align: center;
+    color: lightblue;
+    font-family: 'open sans', sans-serif;
+    font-weight:900
+}
+.navigation{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    color: white;
+}
+h4 {
+    padding: 0;
+    position: relative;
+    left: 50px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+.navbtn{
+    font-family: 'Montserrat', sans-serif;
+    flex: 0 1 90px;
+}
+.navbtn:hover {
+    color:gray;
+}
+.middleside {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 30px;
+}
+.middleside img{
+    width: 200px;
+    float: left;
+}
+.hometext {
+    position: relative;
+    left: 30px;
+    width:90vw;
+    color: white;
+}
+#home.navbtn {
+    color: black;
+
+}
+#upside.hometext {
+    left: 100px;
+}
+.loadingbar {
+    position: relative;
+    display: inline-flex;
+    left:100px;
+    width: 200px;
+    border-color: black;
+    border: 2px solid;
+    background: lightgray;
+    border-radius: 4px
+}
+.loaded {
+    background: black;
+    width: 54px;
+}
+.toload {
+    background: lightblue;
+    width: 146px;
+
+}
