@@ -98,8 +98,8 @@ a:hover{
 
 footer {
     position: relative;
-	top:90vw;
-    text-align: center;
+	top: 95%;
+	text-align: center;
     color:lightcoral;
 }
 footer:hover{
