@@ -3,11 +3,17 @@ html {background-image: linear-gradient(to top left, brown, gray);
 /*.topside{
     background-image: linear-gradient(to bottom right, #42275a, #734b6d);
 }*/
-.title {
+header {
     text-align: center;
     color: lightblue;
-    font-family: 'open sans', sans-serif;
-    font-weight:900
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-weight: 100;
 }
 .navigation{
     position: relative;
@@ -17,23 +23,29 @@ html {background-image: linear-gradient(to top left, brown, gray);
     justify-content: center;
     text-align: center;
     font-style: normal;
-    color: white;
+    color: beige;
 }
 h4 {
     padding: 0;
     position: relative;
-    left: 50px;
+    left: 7vw;
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: 300;
 }
-.navbtn{
-    font-family: 'Montserrat', sans-serif;
-    flex: 0 1 90px;
+a {
+    text-decoration: none;
+    color:lightgray;
 }
-.navbtn:hover {
+a:hover{
     color:gray;
+}
+.navbtn {
+    font-family: 'Open Sans', sans-serif;
+    flex: 0 1 90px;
+    font-weight: 100;
+}
 }
 .middleside {
     font-family: 'Montserrat', sans-serif;
@@ -43,30 +55,38 @@ h4 {
 .middleside img{
     width: 200px;
     float: left;
+    position: relative;
+    left: 20px;
 }
 .hometext {
     position: relative;
     left: 30px;
     width:90vw;
     color: white;
+    font-weight: 100;
 }
-#home.navbtn {
-    color: black;
-
+#current.navbtn {
+    color: #9f9f9f;
 }
 #upside.hometext {
-    left: 100px;
+    left: 9vw;
 }
+.loadingtext{
+    position: relative;
+    left: 9vw
+}
+
 .loadingbar {
     position: relative;
     display: inline-flex;
-    left:100px;
+    left:8vw;
     width: 200px;
     border-color: black;
     border: 2px solid;
-    background: lightgray;
-    border-radius: 4px
+    border-radius: 2px;
+    flex: 1 1 300px;
 }
+
 .loaded {
     background: black;
     width: 54px;
@@ -74,5 +94,20 @@ h4 {
 .toload {
     background: lightblue;
     width: 146px;
-
 }
+
+footer {
+    position: relative;
+	top:90vw;
+    text-align: center;
+    color:lightcoral;
+}
+footer:hover{
+    color:gray;
+}
+.icons{
+    transform: rotate(100deg);
+	color: lightgray;
+	font-size: 1.5em;
+}
+
