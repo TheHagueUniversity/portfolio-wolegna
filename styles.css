@@ -1,4 +1,6 @@
 html {background-image: linear-gradient(to top left, brown, gray); 
+min-height: 100vh; 
+max-height: auto;
 }
 /*.topside{
     background-image: linear-gradient(to bottom right, #42275a, #734b6d);
@@ -15,6 +17,27 @@ body {
 h1 {
     font-weight: 100;
 }
+h4 {
+    padding: 0;
+    position: relative;
+    left: 7vw;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+p {
+	font-size: 16px;
+	color: lightgray;
+}
+a {
+    text-decoration: none;
+    color:lightgray;
+}
+a:hover{
+    color:gray;
+}
 .navigation{
     position: relative;
     display:flex;
@@ -25,22 +48,7 @@ h1 {
     font-style: normal;
     color: beige;
 }
-h4 {
-    padding: 0;
-    position: relative;
-    left: 7vw;
-    font-size: 22px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-weight: 300;
-}
-a {
-    text-decoration: none;
-    color:lightgray;
-}
-a:hover{
-    color:gray;
-}
+
 .navbtn {
     font-family: 'Open Sans', sans-serif;
     flex: 0 1 90px;
@@ -96,18 +104,36 @@ a:hover{
     width: 146px;
 }
 
-footer {
-    position: relative;
-	top: 95%;
-	text-align: center;
-    color:lightcoral;
-}
-footer:hover{
-    color:gray;
-}
 .icons{
-    transform: rotate(100deg);
 	color: lightgray;
 	font-size: 1.5em;
 }
+.list {
+	position: relative;
+	display: inline-flex;
+	top: 10vh;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	
+}
+.edutitle {
+	font-size: 20px;
+}
 
+.edutext {
+	position: relative;
+	text-align: justify;
+	width: 75vw;
+}
+.edulist {
+	height: 20vh;
+	position: relative;
+	text-align: center;
+	width:20vw;
+
+}
+.subtitle {
+	position: relative;
+	left: 2vw;
+	color: lightcoral;
+}
