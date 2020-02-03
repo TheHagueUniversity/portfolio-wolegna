@@ -14,6 +14,21 @@ body {
 h1 {
     font-weight: 100;
 }
+h2 {
+	padding: 0;
+    position: relative;
+    right: 7vw;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+	max-width: 92vw;
+	
+}
+h3 {
+	position: relative;
+	text-align: center;
+}
 h4 {
     padding: 0;
     position: relative;
@@ -21,7 +36,9 @@ h4 {
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-weight: 300;
+    font-weight: 300;	
+	max-width: 92vw;
+
 }
 
 p {
@@ -78,7 +95,7 @@ a:hover{
 }
 .loadingtext{
     position: relative;
-    left: 9vw
+    left: 9vw;
 }
 
 .loadingbar {
@@ -127,7 +144,6 @@ a:hover{
 	width: 65vw;
 }
 .edulist {
-	height: 20vh;
 	position: relative;
 	text-align: center;
 	width:30vw;
@@ -137,4 +153,21 @@ a:hover{
 	position: relative;
 	left: 2vw;
 	color: lightcoral;
+}
+.projleft {
+	position: relativ
+	
+}
+.projleft img {
+	position: relative;
+	float: left;
+	left: 5vw;
+	width: 300px;
+	border-radius: 6px;
+}
+.projlefttext {
+	position: relative;
+	left: 7vw;
+	top: 20px;
+	max-width: 92vw;
 }
