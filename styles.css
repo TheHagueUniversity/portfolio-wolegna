@@ -1,6 +1,6 @@
 html {background-image: linear-gradient(to top left, brown, gray); 
 min-height: 100vh; 
-max-height: auto;
+max-height: calc(auto + 20px);
 }
 header {
     text-align: center;
@@ -14,17 +14,7 @@ body {
 h1 {
     font-weight: 100;
 }
-h2 {
-	padding: 0;
-    position: relative;
-    right: 7vw;
-    font-size: 22px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-weight: 300;
-	max-width: 92vw;
-	
-}
+
 h3 {
 	position: relative;
 	text-align: center;
@@ -38,7 +28,6 @@ h4 {
     color: white;
     font-weight: 300;	
 	max-width: 92vw;
-
 }
 
 p {
@@ -61,6 +50,7 @@ a:hover{
     text-align: center;
     font-style: normal;
     color: beige;
+	
 }
 
 .navbtn {
@@ -127,6 +117,9 @@ a:hover{
 	font-size: 1.5em;
 	
 }
+.linebreak {
+	width: 100vw;
+}
 .list {
 	position: relative;
 	display: inline-flex;
@@ -154,10 +147,7 @@ a:hover{
 	left: 2vw;
 	color: lightcoral;
 }
-.projleft {
-	position: relativ
-	
-}
+
 .projleft img {
 	position: relative;
 	float: left;
@@ -165,9 +155,14 @@ a:hover{
 	width: 300px;
 	border-radius: 6px;
 }
+
 .projlefttext {
 	position: relative;
 	left: 7vw;
 	top: 20px;
 	max-width: 92vw;
+	font-family: 
+}
+#phone.projleft img {
+	height: 200px;
 }
