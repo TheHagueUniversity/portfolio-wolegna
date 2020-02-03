@@ -2,9 +2,6 @@ html {background-image: linear-gradient(to top left, brown, gray);
 min-height: 100vh; 
 max-height: auto;
 }
-/*.topside{
-    background-image: linear-gradient(to bottom right, #42275a, #734b6d);
-}*/
 header {
     text-align: center;
     color: lightblue;
@@ -104,17 +101,21 @@ a:hover{
     width: 146px;
 }
 
+.contact{
+	position: relative;
+	left: 9vw;
+}
 .icons{
 	color: lightgray;
 	font-size: 1.5em;
+	
 }
 .list {
 	position: relative;
 	display: inline-flex;
 	top: 10vh;
 	flex-wrap: wrap;
-	flex-flow: row wrap;
-	
+	flex-flow: row wrap;	
 }
 .edutitle {
 	font-size: 20px;
@@ -123,13 +124,13 @@ a:hover{
 .edutext {
 	position: relative;
 	text-align: justify;
-	width: 75vw;
+	width: 65vw;
 }
 .edulist {
 	height: 20vh;
 	position: relative;
 	text-align: center;
-	width:20vw;
+	width:30vw;
 
 }
 .subtitle {
